@@ -11,13 +11,32 @@
 }
 
 .darkBlue {
-    background-color: rgb(33, 150, 243);
+    background-color: rgb(41, 98, 255);
 }
 
 
 .pixel {
-    width: 30px;
-    height: 30px;
+    width: 15px;
+    height: 15px;
     border: 1px solid lightgray;
     box-sizing: border-box;
+}
+
+
+.App {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.canvas {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 450px;
+}
+
+.pixel.current-color {
+    border: 2px solid yellow;
 }
