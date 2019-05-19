@@ -1,9 +1,10 @@
 import React from 'react';
-import './App.css';
+import Pixel from './Pixel';
+import '../App.css';
 
 function App() {
   return (
-    <h1>I am app</h1>
+    <Pixel/>
   );
 }
 
